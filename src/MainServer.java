@@ -1,4 +1,4 @@
-import java.awt.Rectangle;
+
 import java.util.ArrayList;
 
 import com.google.gson.Gson;
@@ -57,7 +57,7 @@ public class MainServer extends PApplet implements IObserver{
 				stroke(80);
 				fill(255);
 				rectMode(CENTER);
-				rect(p.getxPos(), p.getyPos()+5, 80, 40);
+				rect(p.getxPos(), p.getyPos()-5, 80, 40);
 				fill(80);
 				textAlign(CENTER);
 				text(p.getName(), p.getxPos(), p.getyPos());
